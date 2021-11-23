@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=menu.css.map */
+#menu-btn {
+  font-size: 2.5rem;
+  color: #f8f7f7;
+  cursor: pointer;
+  display: none;
+}
+/*# sourceMappingURL=menu.css.map */
