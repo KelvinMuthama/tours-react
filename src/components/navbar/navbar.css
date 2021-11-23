@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=navbar.css.map */
+.navbar a {
+  font-size: 1.7rem;
+  color: #aaa;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  color: #29d9d5;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #f8f7f7;
+  font-weight: bolder;
+}
+
+.logo i {
+  color: #29d9d5;
+  padding-right: .5rem;
+}
+/*# sourceMappingURL=navbar.css.map */
