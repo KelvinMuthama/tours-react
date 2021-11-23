@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=home.css.map */
+.home {
+  margin: 0 auto;
+  margin-top: 9rem;
+  width: 90%;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#111111b3), to(#111111b3)), url(../../assets/home-bg.jpg);
+  background: linear-gradient(#111111b3, #111111b3), url(../../assets/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.home .content {
+  text-align: center;
+}
+
+.home .content span {
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: .1rem #f8f7f7;
+  font-size: 4vw;
+  display: block;
+}
+
+.home .content h3 {
+  font-size: 6vw;
+  color: #f8f7f7;
+}
+
+.home .content p {
+  max-width: 60rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+/*# sourceMappingURL=home.css.map */
