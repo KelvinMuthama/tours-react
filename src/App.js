@@ -1,8 +1,31 @@
+import {
+  About,
+  Blogs,
+  Destinations,
+  Footer,
+  Galleries,
+  Header,
+  Reviews,
+  Services,
+} from "./containers";
+import { Banner, Credit } from "./components";
+
 import "./app.css";
 
 const App = () => {
   return (
-    <div>Challenges and Trials are the soil in which faith flourishes</div>
+    <>
+      <Header />
+      <About />
+      <Destinations />
+      <Services />
+      <Galleries />
+      <Reviews />
+      <Blogs />
+      <Banner />
+      <Footer />
+      <Credit />
+    </>
   );
 };
 
