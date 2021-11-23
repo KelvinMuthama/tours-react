@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=cta.css.map */
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #29d9d5;
+  border: .1rem solid #29d9d5;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover {
+  background: radial-gradient(circle at 81% 85%, #00bcd4 0%, #29d9d5 100%);
+  color: #111;
+}
+/*# sourceMappingURL=cta.css.map */
