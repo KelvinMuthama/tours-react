@@ -8,7 +8,7 @@ import {
   Reviews,
   Services,
 } from "./containers";
-import { Banner, Credit } from "./components";
+import { Banner, Credit, Home } from "./components";
 
 import "./app.css";
 
@@ -16,6 +16,7 @@ const App = () => {
   return (
     <>
       <Header />
+      <Home />
       <About />
       <Destinations />
       <Services />
