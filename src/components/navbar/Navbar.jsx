@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav onClick={ToggleMenu}>
+      <i onClick={ToggleMenu}>
         <Menu />
-      </nav>
+      </i>
       <Logo />
       <nav className={active ? "navbar active" : "navbar"} onClick={ToggleMenu}>
         <a href="#home">home</a>
