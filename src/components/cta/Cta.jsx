@@ -1,8 +1,8 @@
 import "./cta.css";
 
-const Cta = ({ hrefSrc }) => (
+const Cta = ({ hrefSrc, text }) => (
   <a href={hrefSrc} className="btn">
-    book now
+    {text}
   </a>
 );
 
