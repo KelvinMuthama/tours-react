@@ -15,7 +15,7 @@ const Navbar = () => {
         <Menu />
       </nav>
       <Logo />
-      <nav className={active ? "navbar active" : "navbar"}>
+      <nav className={active ? "navbar active" : "navbar"} onClick={ToggleMenu}>
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#destination">destination</a>
