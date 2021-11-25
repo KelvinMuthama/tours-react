@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header">
       <Navbar />
-      <Cta />
+      <Cta hrefSrc="#book-form" />
     </header>
   );
 };

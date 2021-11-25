@@ -12,7 +12,7 @@ const Home = () => {
           the lake, or an invigorating adventure, like backcountry camping, look
           no further.
         </p>
-        <Cta />
+        <Cta hrefSrc="#book-form" />
       </div>
     </section>
   );
