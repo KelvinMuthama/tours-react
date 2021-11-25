@@ -4,9 +4,9 @@ import "./menu.css";
 
 const Menu = () => {
   return (
-    <div id="menu-btn">
+    <i id="menu-btn">
       <FontAwesomeIcon icon={faBars} />
-    </div>
+    </i>
   );
 };
 
