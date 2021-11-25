@@ -14,7 +14,7 @@ const About = () => (
         nature can help clear your head and bring you into the present moment,
         and is a great way to de-stress and relax.
       </p>
-      <Cta hrefSrc="#book-form" />
+      <Cta hrefSrc="#book-form" text="book now" />
     </div>
   </section>
 );
