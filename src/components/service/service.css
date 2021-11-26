@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=service.css.map */
+.services .box {
+  background: #222;
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  border: .2rem solid #111;
+}
+
+.services .box:hover {
+  border: .1rem solid #29d9d5;
+}
+
+.services .box i {
+  font-size: 5rem;
+  color: #29d9d5;
+  margin-bottom: 2rem;
+}
+
+.services .box h3 {
+  font-size: 2rem;
+  color: #f8f7f7;
+}
+
+.services .box p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+/*# sourceMappingURL=service.css.map */
