@@ -1,4 +1,4 @@
-.box-container {
+.destination .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
