@@ -1,11 +1,11 @@
 import "./review.css";
 
 const Review = ({ text, imgSrc, imgDesc, name, career }) => (
-  <div class="box">
+  <div className="box">
     <p>{text}</p>
-    <div class="user">
+    <div className="user">
       <img src={imgSrc} alt={imgDesc} />
-      <div class="info">
+      <div className="info">
         <h3>{name}</h3>
         <span>{career}</span>
       </div>

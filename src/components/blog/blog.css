@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=blog.css.map */
+.blogs .box {
+  border-radius: 1rem;
+  background: #222;
+  overflow: hidden;
+}
+
+.blogs .box:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .box .image {
+  height: 25rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blogs .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blogs .box .content {
+  padding: 2rem;
+}
+
+.blogs .box .content .link {
+  font-size: 2rem;
+  color: #f8f7f7;
+}
+
+.blogs .box .content .link:hover {
+  color: #29d9d5;
+}
+
+.blogs .box .content p {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.blogs .box .content .icon {
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogs .box .content .icon a {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.blogs .box .content .icon a:hover {
+  color: #29d9d5;
+}
+
+.blogs .box .content .icon a i {
+  padding-right: .5rem;
+  color: #29d9d5;
+}
+/*# sourceMappingURL=blog.css.map */
