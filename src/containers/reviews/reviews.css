@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=reviews.css.map */
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.review .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.review .content span {
+  font-size: 2rem;
+  color: #29d9d5;
+}
+
+.review .content h3 {
+  font-size: 3rem;
+  color: #f8f7f7;
+}
+
+.review .content p {
+  font-size: 1.4rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+.review .box-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+}
+/*# sourceMappingURL=reviews.css.map */
