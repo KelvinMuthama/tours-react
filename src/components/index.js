@@ -4,7 +4,7 @@ export { default as Book } from "./book/Book";
 export { default as Credit } from "./credit/Credit";
 export { default as Cta } from "./cta/Cta";
 export { default as Destination } from "./destination/Destination";
-export { default as Footer } from "./footer/Footer";
+export { default as Footer } from "./footer/Foot";
 export { default as Gallery } from "./gallery/Gallery";
 export { default as Heading } from "./heading/Heading";
 export { default as Home } from "./home/Home";
