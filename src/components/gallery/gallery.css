@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=gallery.css.map */
+.gallery .box {
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid;
+}
+
+.gallery .box img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gallery .box span {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.gallery .box h3 {
+  margin-top: .5rem;
+  font-size: 2rem;
+  color: #f8f7f7;
+}
+/*# sourceMappingURL=gallery.css.map */
