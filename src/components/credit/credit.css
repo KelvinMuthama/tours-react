@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=credit.css.map */
+.credit {
+  background: #222;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: .5rem;
+  padding: 1rem 2rem;
+  color: #aaa;
+}
+
+.credit span {
+  color: #29d9d5;
+}
+/*# sourceMappingURL=credit.css.map */
